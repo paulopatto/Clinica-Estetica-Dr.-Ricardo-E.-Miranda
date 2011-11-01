@@ -1,0 +1,80 @@
+/*
+Theme Name: Clinica Estética Dr. Ricardo E. Miranda
+Theme URI: http://www.paulopatto.com/clinica-estetica-dr-ricardo-e-miranda/
+Description: Tema desenvolvido por @paulopatto para o Site da clinica de estética do Dr. Ricardo E. Miranda
+Author: Paulo Patto<paulopatto@gmail.com>
+Author URI: http://paulopatto.me/
+Version: 1.0
+*/
+body{
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+
+
+div#header{
+	
+}
+div#header div#logotipo{
+	float: left;
+}
+div#header div#logotipo img{
+	width: 410px;
+	height: 48px;
+	border: none;
+}
+
+div#header div#contatos{
+	float: right;
+}
+div#header div#contatos label{
+	
+}
+div#header div#contatos img{
+	width: 21px;
+	height: 21px;
+	float: right;
+}
+div#header div#contatos span.contato{
+	clear: both;
+}
+div#header div#contatos hr{
+	
+}
+div#header div#menu{
+	clear: both;
+}
+div#header div#menu ul{
+	display: block-inline;
+	background:#8A8989 url('images/menu_background.png') repeat-x scroll bottom center;
+	color: #EDECEC;
+	text-align:center;
+	height: 31px;
+	vertical-align: middle;
+	margin: auto 20% auto 20%;
+}
+div#header div#menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	border-right: solid 1px #A4A2A2;
+	margin-left: 15px;
+	padding-right: 15px;
+	font-size: 1.3em;
+	height: 31px;
+	vertical-align: middle;
+	
+}
+div#header div#menu ul li:last-child{
+	border: none;
+}
+div#header div#menu ul li.selecionado{
+	
+}
+div#header div#menu ul li a{
+	text-decoration: none;
+	color: #EDECEC;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 5px;
+}

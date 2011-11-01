@@ -1,0 +1,8 @@
+[MYSQL]:
+	database: clinica_estetica
+	username: clinica_estetica
+	password: ricardo
+[Wordpress]:
+	e-mail: webmaster@paulopatto.com
+	username: dr_ricardo
+	password: miranda
