@@ -19,4 +19,15 @@ jQuery(function($){
 	 * @require "jquery.Corner.js" :url => http://github.com/malsup/corner/blob/master/jquery.corner.js
 	 */
 	 $("div#header div#menu ul").corner("30px");
+	 
+	 /**
+	  * Banner rotativo (slider) do Nivo Slider
+	  * @require 'jQuery'
+	  * @require 'jquery.nivo.slider' :url => http://nivo.dev7studios.com/pricing/
+	  */
+	 var $nivoOption = {
+	 	effect: 'random',
+	 	animSpeed: 500,
+	 };
+	 $("#slider").nivoSlider($nivoOption);
 });
