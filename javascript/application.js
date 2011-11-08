@@ -26,17 +26,18 @@ jQuery(function($){
 	  * @require 'jquery.nivo.slider' :url => http://nivo.dev7studios.com/pricing/
 	  */
 	 var $nivoOption = {
-	 	effect: 'random',
+	 	effect: 'slideInLeft',
 	 	animSpeed: 500,
+	 	directionNav: false,
+	 	captionOpacity: 0.8,
 	 };
 	 $("#slider").nivoSlider($nivoOption);
 	 
 	 /**
 	  * Geração dos labels de destaques
+	  * @require jQuery
 	  */
 	 $("ul#destaques li").each(function(index){
-	 	console.log(this);
-	 	console.log($(this).children("img").attr("title"));
 	 	$(this).append("<span class='image-detaque-label'>"+$(this).children("img").attr("title")+"</span>"); 
 	 });
 });
