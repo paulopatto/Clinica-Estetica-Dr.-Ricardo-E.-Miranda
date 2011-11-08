@@ -30,7 +30,9 @@
 			} 
 		?>
 		
-		
+		<div id='page' style='height:100px;'>
+			<p> &nbsp; </p>
+		</div>
 		
 		
 		<div id='footer'>

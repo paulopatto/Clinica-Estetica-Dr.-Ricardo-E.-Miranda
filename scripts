@@ -1,0 +1,6 @@
+# Pegar post da categoria X
+query_posts('category_name = X');
+
+# Excluir página da Listagem
+wp_list_pages('exclude=ID');
+

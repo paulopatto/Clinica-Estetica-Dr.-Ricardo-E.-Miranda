@@ -5,13 +5,14 @@
 </div>
 
 <div id='contatos'>
-	<img src='<?php bloginfo('template_url'); ?>/images/botao_facebook.png' alt='facebook' />
-	<img src='<?php bloginfo('template_url'); ?>/images/botao_youtube.png' alt='youtube' />
+	<a href='http://facebook.com/'>
+		<img src='<?php bloginfo("template_url"); ?>/images/botao_facebook.png' alt='facebook' />
+	</a>
+	<a href='http://youtube.com/'>
+		<img src='<?php bloginfo("template_url"); ?>/images/botao_youtube.png' alt='youtube' />
+	</a>
 	<br />
-	<label>Tel.</label>
-	<span class='contato'>3120.2095 CLINÍCA AVITA</span>
-	<hr />
-	<span class='contato'>3151.2946 CLÍNICA DAITYA</span>
+	<img src='<?php bloginfo("template_url"); ?>/images/contatos.png' />
 </div>
 
 <div id='menu'>

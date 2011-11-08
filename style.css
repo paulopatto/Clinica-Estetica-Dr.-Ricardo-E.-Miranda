@@ -13,8 +13,10 @@ body{
 }
 
 
-div#header{
-	
+div#header,
+div#footer{
+	display: block-inline;
+	margin: 10px AUTO;
 }
 div#header div#logotipo{
 	float: left;
@@ -27,21 +29,33 @@ div#header div#logotipo img{
 
 div#header div#contatos{
 	float: right;
+	display:block;
 }
 div#header div#contatos label{
-	
-}
-div#header div#contatos img{
-	width: 21px;
-	height: 21px;
-	float: right;
+	font-weight: bold;
+	width: 100px;
+	margin-left: 2px;
+	vertical-align:middle;
+	margin-top:5px;	
 }
 div#header div#contatos span.contato{
 	clear: both;
+	float: left;
+	text-align: left;	
+	margin-left:50px;
 }
 div#header div#contatos hr{
-	
+	float: right;
+	clear:both;
+	width: 75%;
 }
+div#header div#contatos a img{
+	width: 21px;
+	height: 21px;
+	float: right;
+	border: none;
+}
+
 div#header div#menu{
 	clear: both;
 }
@@ -51,8 +65,9 @@ div#header div#menu ul{
 	color: #EDECEC;
 	text-align:center;
 	height: 31px;
+	width: 70%;
 	vertical-align: middle;
-	margin: auto 20% auto 20%;
+	margin: AUTO 100px;
 }
 div#header div#menu ul li{
 	display: inline-block;
@@ -77,4 +92,19 @@ div#header div#menu ul li a{
 	vertical-align: middle;
 	text-align: center;
 	padding-top: 5px;
+}
+
+
+div#footer div#associacoes{
+	text-align: center;
+}
+div#footer div#associacoes img.associacao{
+	margin-right: 10px;
+	vertical-align:middle;
+}
+div#footer p{
+	text-align: center;
+	color: #919090;
+	font-family: Arial, Sans-Serif;
+	font-size: 0.9em;
 }
