@@ -114,7 +114,7 @@ div#footer p{
 }
 
 div#slider{
-	display:block:
+	display:block;
 	overflow:hidden;
 	width:900px;
 	height:270px;
@@ -125,13 +125,13 @@ div#slider{
 	right: 2px;
 }
 
-ul#destaques{
+#destaques{
 	margin: 10px AUTO;
 	display: inline-block;
 	text-align: center;
 	margin-left: 10%;
 }
-ul#destaques li{
+#destaques li{
 	display: inline-block;
 	width: 220px;
 	height: 195px;
@@ -139,21 +139,21 @@ ul#destaques li{
 	vertical-align: middle;
 	text-align: left;
 }
-ul#destaques li img{
+#destaques li img{
 	background-color: #FFF;
 	display: block;
 	width: 220px;
 	height: 130px;
 	vertical-align: middle;
 }
-ul#associacoes{
+#associacoes{
 	border: dashed 2px red;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left:900px;
 	margin: 10px AUTO;
 }
-ul#associacoes li{
+#associacoes li{
 	list-style-type: none;
 	display: inline-block;
 	vertical-align: middle;
