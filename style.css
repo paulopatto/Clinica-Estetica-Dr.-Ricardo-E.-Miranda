@@ -14,9 +14,13 @@ body{
 
 
 div#header,
+div#container,
 div#footer{
 	display: block-inline;
 	margin: 10px AUTO;
+	width: 940px;
+	
+	border: solid 1px #CCC;
 }
 div#header div#logotipo{
 	float: left;
@@ -65,9 +69,8 @@ div#header div#menu ul{
 	color: #EDECEC;
 	text-align:center;
 	height: 31px;
-	width: 70%;
+	width: 90%;
 	vertical-align: middle;
-	margin: AUTO 100px;
 }
 div#header div#menu ul li{
 	display: inline-block;
@@ -108,3 +111,29 @@ div#footer p{
 	font-family: Arial, Sans-Serif;
 	font-size: 0.9em;
 }
+
+div#slider{
+	width:900px;
+	height:270px;
+	margin-left:120px;
+}
+ul#destaques{
+	border: solid 2px #EFEFEF;
+
+}
+ul#destaques li{
+	display: inline-block;
+	width: 220px;
+	height: 195px;
+	list-style-type: none;
+	vertical-align: middle;
+}
+ul#destaques li img{
+	background-color: #FFF;
+	display: block;
+	width: 220px;
+	height: 130px;
+	vertical-align: middle;
+	border: dotted 1px yellow;
+}
+

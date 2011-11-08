@@ -30,4 +30,14 @@ jQuery(function($){
 	 	animSpeed: 500,
 	 };
 	 $("#slider").nivoSlider($nivoOption);
+	 
+	 /**
+	  * Geração dos labels de destaques
+	  */
+	 $("ul#destaques li").each(function(index){
+	 	console.log(this);
+	 	console.log($(this).children("img").attr("title"));
+	 	$(this).append("<span class='image-detaque-label'>"+$(this).children("img").attr("title")+"</span>"); 
+	 });
 });
+
