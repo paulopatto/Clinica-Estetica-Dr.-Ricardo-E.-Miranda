@@ -21,7 +21,7 @@ div#footer{
 	width: 940px;
 	clear: both;
 	
-	border: dashed 1px yellow;
+	/*border: dashed 1px yellow;*/
 }
 div#header div#logotipo{
 	float: left;
@@ -35,6 +35,7 @@ div#header div#logotipo img{
 div#header div#contatos{
 	float: right;
 	display:block;
+	margin-bottom: 21px;
 }
 div#header div#contatos label{
 	font-weight: bold;
@@ -72,6 +73,7 @@ div#header div#menu ul{
 	height: 31px;
 	width: 90%;
 	vertical-align: middle;
+	margin: 20px AUTO;
 }
 div#header div#menu ul li{
 	display: inline-block;
@@ -99,13 +101,6 @@ div#header div#menu ul li a{
 }
 
 
-div#footer div#associacoes{
-	text-align: center;
-}
-div#footer div#associacoes img.associacao{
-	margin-right: 10px;
-	vertical-align:middle;
-}
 div#footer p{
 	text-align: center;
 	color: #919090;
@@ -146,15 +141,22 @@ div#slider{
 	height: 130px;
 	vertical-align: middle;
 }
+#associacoes-label{
+	margin-left: 100px;
+}
 #associacoes{
-	border: dashed 2px red;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left:900px;
-	margin: 10px AUTO;
+	margin-left: 180px;
 }
 #associacoes li{
 	list-style-type: none;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+
+.theme-default .nivoSlider{
+	border: 0px solid #FFF;
+	box-shadow:none;
 }
