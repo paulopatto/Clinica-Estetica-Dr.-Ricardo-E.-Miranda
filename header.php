@@ -17,5 +17,7 @@
 </div>
 
 <div id='menu'>
-	<?php wp_list_pages('title_li=');?>
+	<ul>
+		<?php wp_list_pages('title_li=');?>
+	</ul>
 </div>
