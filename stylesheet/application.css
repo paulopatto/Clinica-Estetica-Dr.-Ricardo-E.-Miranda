@@ -1,0 +1,166 @@
+/*
+Theme Name: Clinica Estética Dr. Ricardo E. Miranda
+Theme URI: http://www.paulopatto.com/clinica-estetica-dr-ricardo-e-miranda/
+Description: Tema desenvolvido por @paulopatto para o Site da clinica de estética do Dr. Ricardo E. Miranda
+Author: Paulo Patto<paulopatto@gmail.com>
+Author URI: http://paulopatto.me/
+Version: 1.0
+*/
+body{
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+
+
+div#header,
+div#container,
+div#footer{
+	display: block-inline;
+	margin: 5px AUTO;
+	width: 940px;
+	clear: both;
+	
+	/*border: dashed 1px yellow;*/
+}
+div#header div#logotipo{
+	float: left;
+}
+div#header div#logotipo img{
+	width: 410px;
+	height: 48px;
+	border: none;
+}
+
+div#header div#contatos{
+	float: right;
+	display:block;
+	margin-bottom: 21px;
+}
+div#header div#contatos label{
+	font-weight: bold;
+	width: 100px;
+	margin-left: 2px;
+	vertical-align:middle;
+	margin-top:5px;	
+}
+div#header div#contatos span.contato{
+	clear: both;
+	float: left;
+	text-align: left;	
+	margin-left:50px;
+}
+div#header div#contatos hr{
+	float: right;
+	clear:both;
+	width: 75%;
+}
+div#header div#contatos a img{
+	width: 21px;
+	height: 21px;
+	float: right;
+	border: none;
+}
+
+div#header div#menu{
+	clear: both;
+}
+div#header div#menu ul{
+	display: block-inline;
+	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background.png') repeat-x scroll bottom center;
+	color: #EDECEC;
+	text-align:center;
+	height: 31px;
+	width: 90%;
+	vertical-align: middle;
+	margin: 20px AUTO;
+}
+div#header div#menu ul li{
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	border-right: solid 1px #A4A2A2;
+	margin-left: 15px;
+	padding-right: 15px;
+	font-size: 1.3em;
+	height: 31px;
+	vertical-align: middle;
+}
+div#header div#menu ul li:hover{
+	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;
+}
+
+div#header div#menu ul li:last-child{
+	/*border: none;*/
+}
+div#header div#menu ul li.selecionado{
+	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;
+}
+div#header div#menu ul li a{
+	text-decoration: none;
+	color: #EDECEC;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+div#footer p{
+	text-align: center;
+	color: #919090;
+	font-family: Arial, Sans-Serif;
+	font-size: 0.9em;
+}
+
+div#slider{
+	display:block;
+	overflow:hidden;
+	width:900px;
+	height:270px;
+	margin: 4px AUTO;
+}
+.theme-default .nivo-controlNav {
+	bottom:0px;
+	right: 2px;
+}
+
+#destaques{
+	margin: 10px AUTO;
+	display: inline-block;
+	text-align: center;
+	margin-left: 10%;
+}
+#destaques li{
+	display: inline-block;
+	width: 220px;
+	height: 195px;
+	list-style-type: none;
+	vertical-align: middle;
+	text-align: left;
+}
+#destaques li img{
+	background-color: #FFF;
+	display: block;
+	width: 220px;
+	height: 130px;
+	vertical-align: middle;
+}
+#associacoes-label{
+	margin-left: 100px;
+}
+#associacoes{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 180px;
+}
+#associacoes li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.theme-default .nivoSlider{
+	border: 0px solid #FFF;
+	box-shadow:none;
+}
