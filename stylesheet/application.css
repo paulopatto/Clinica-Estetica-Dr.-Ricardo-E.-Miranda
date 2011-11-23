@@ -21,7 +21,7 @@ div#footer{
 	width: 940px;
 	clear: both;
 	
-	/*border: dashed 1px yellow;*/
+	border: dashed 1px silver;
 }
 div#header div#logotipo{
 	float: left;
@@ -87,14 +87,14 @@ div#header div#menu ul li{
 	vertical-align: middle;
 }
 div#header div#menu ul li:hover{
-	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;
+	/*background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;*/
 }
 
 div#header div#menu ul li:last-child{
-	/*border: none;*/
+	border: none;
 }
 div#header div#menu ul li.selecionado{
-	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;
+	/*background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;*/
 }
 div#header div#menu ul li a{
 	text-decoration: none;
