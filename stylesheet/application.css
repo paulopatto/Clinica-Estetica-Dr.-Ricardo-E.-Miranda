@@ -164,3 +164,6 @@ div#slider{
 	border: 0px solid #FFF;
 	box-shadow:none;
 }
+#sidebar-page{
+	width: 150px;
+}

@@ -44,11 +44,11 @@
 			<?php if(!(get_the_title() != "Cirurgias" && get_the_title() != "Estética")){ ?>
 			
 			<div id='sidebar-page'>
-				<strong><?php the_title(); ?></strong><br />
+				<strong style='color:#00465F;'><?php the_title(); ?></strong><br />
 				<hr />
 				<?php
 					$post_filter = array(
-						'category'		=>  get_the_title(),
+						'category'		=>  get_cat_ID(get_the_title()),
 						'post_type'		=> 'post',
 						'post_status'	=> 'publish',
 						'numberposts'	=> 50
