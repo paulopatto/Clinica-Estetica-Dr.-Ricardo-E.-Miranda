@@ -20,8 +20,6 @@ div#footer{
 	margin: 5px AUTO;
 	width: 940px;
 	clear: both;
-	
-	border: dashed 1px silver;
 }
 div#header div#logotipo{
 	float: left;
@@ -87,7 +85,7 @@ div#header div#menu ul li{
 	vertical-align: middle;
 }
 div#header div#menu ul li:hover{
-	/*background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;*/
+	/*background:#525252 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;*/
 }
 
 div#header div#menu ul li:last-child{
@@ -158,12 +156,23 @@ div#slider{
 	display: inline-block;
 	vertical-align: middle;
 }
-
-
 .theme-default .nivoSlider{
 	border: 0px solid #FFF;
 	box-shadow:none;
 }
-#sidebar-page{
-	width: 150px;
+
+div#sidebar-page{
+	width: 200px;
+	float: left;
+	display: block;
+}
+div#sidebar hr{
+	background-color: #00465F;
+	color: #00465F;
+	border:1px solid #00465F;
+}
+div#page-content{
+	float: right;
+	width: 730px;
+	display: block;
 }
