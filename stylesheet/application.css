@@ -6,12 +6,29 @@ Author: Paulo Patto<paulopatto@gmail.com>
 Author URI: http://paulopatto.me/
 Version: 1.0
 */
+@font-face{
+	font-family: "FuturaBT";
+	src:url("FuturaTB.ttf") format("truetype");
+	*src:url("FuturaTB.EOT");
+}
+@font-face{
+	font-family: "HelveNueThin";
+	src:url("HelveNue.ttf") format("truetype");
+	*src:url("HelveNue.EOT");
+}
+@font-face{
+	font-family: "HelveNueLight";
+	src: url("HelveNueLight.ttf") format("truetype");
+	*src: url("HelveNueLight.EOT");
+}
+
+
+
 body{
 	background: #FFFFFF;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12pt;
 }
-
 
 div#header,
 div#container,
@@ -65,7 +82,7 @@ div#header div#menu{
 }
 div#header div#menu ul{
 	display: block-inline;
-	background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background.png') repeat-x scroll bottom center;
+	background:#8A8989 url('../images/menu_background.png') repeat-x scroll bottom center;
 	color: #EDECEC;
 	text-align:center;
 	height: 31px;
@@ -91,15 +108,15 @@ div#header div#menu ul li:hover{
 div#header div#menu ul li:last-child{
 	border: none;
 }
-div#header div#menu ul li.selecionado{
-	/*background:#8A8989 url('http://clinica.paulopatto.me/wp-content/uploads/2011/11/menu_background_hover.jpg') repeat-x scroll bottom left;*/
-}
 div#header div#menu ul li a{
 	text-decoration: none;
 	color: #EDECEC;
 	vertical-align: middle;
 	text-align: center;
 	padding-top: 5px;
+	font-family: "FuturaBT", "HelveNueThin", "HelveNueLight", Sans-Serif;
+	font-size: 0.9em;
+	text-shadow: 1px 1px 0px #000;
 }
 
 
@@ -116,6 +133,9 @@ div#slider{
 	width:900px;
 	height:270px;
 	margin: 4px AUTO;
+	background-color: #FFF;
+	border-color: #FFFFFF;
+	border: none;
 }
 .theme-default .nivo-controlNav {
 	bottom:0px;
@@ -166,10 +186,15 @@ div#sidebar-page{
 	float: left;
 	display: block;
 }
-div#sidebar hr{
+div#sidebar-page hr{
 	background-color: #00465F;
 	color: #00465F;
 	border:1px solid #00465F;
+}
+div#sidebar-page a{
+	text-decoration: none;
+	color: #666;
+	
 }
 div#page-content{
 	float: right;
